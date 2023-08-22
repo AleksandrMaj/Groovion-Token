@@ -1,0 +1,11 @@
+# Solidity build artifacts
+/build/
+
+# Node.js dependencies
+/node_modules/
+
+# Remix IDE settings
+/.remix/
+
+# Local development files
+.env
