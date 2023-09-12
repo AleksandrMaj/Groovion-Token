@@ -136,6 +136,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -256,11 +269,11 @@
 	},
 	"sources": {
 		"contracts/Groovion.sol": {
-			"keccak256": "0x08d076a4717c131f27892c30db8d79c0efce05753ab346418e1e60d27526ac3b",
+			"keccak256": "0x2a31e51e8e9d8e839a382f15cc83af41ead1ba5f9995562257d619d75ff46db4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b8ea0b649bf98e387a273cf4a18bf80fe3c4e327c23f9d0714f57de0d13f008b",
-				"dweb:/ipfs/QmQw3YJuNAddE7gqemHrS95u7YxReRocMgD83v9RbBiRQJ"
+				"bzz-raw://379b92c7627f9fe9fc50b301c50281c5a7fc9e7a741b066f838b8a68049370e8",
+				"dweb:/ipfs/QmUnTCBVyqMs6CsFneehAe3aicPBY9UmTyAHUJKqhT176F"
 			]
 		}
 	},
