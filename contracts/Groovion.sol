@@ -67,7 +67,7 @@ contract Groovion is IERC20 {
 
     function mint(uint amount) external {
         balanceOf[msg.sender] += amount;
-        totalSupply -= amount;
+        totalSupply += amount;
         emit Transfer(address(0), msg.sender, amount);
     }
 }
